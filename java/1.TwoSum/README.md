@@ -35,4 +35,7 @@ Constraints:
 
 Only one valid answer exists.
 
-Recall - 2
+---
+Ways to solve
+- Two pass Hash
+- One pass Hash
