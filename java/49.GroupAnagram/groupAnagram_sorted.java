@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Arrays;
 
 public class groupAnagram_sorted {
-    public LIst<List<String>> groupAnagram(String[] strs) {
+    public List<List<String>> groupAnagram(String[] strs) {
         if (strs.length == 0)
             return new ArrayList<>();
         Map<String, List<String>> ans = new HashMap<>();
