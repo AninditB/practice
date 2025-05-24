@@ -23,3 +23,8 @@ Constraints:
     k is in the range [1, the number of unique elements in the array].
     
 It is guaranteed that the answer is unique.
+
+
+Methods:
+---
+- Approach 1: Using a Hash Map and Sorting
