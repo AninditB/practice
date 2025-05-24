@@ -28,3 +28,4 @@ It is guaranteed that the answer is unique.
 Methods:
 ---
 - Approach 1: Using a Hash Map and Sorting
+- Using a Min-Heap
