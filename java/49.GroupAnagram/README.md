@@ -36,3 +36,4 @@ strs[i] consists of lowercase English letters.
 
 Methods:
 - Categorize by Character Count
+- Categorize by Sorted String
