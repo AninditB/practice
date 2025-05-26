@@ -37,5 +37,6 @@ Only one valid answer exists.
 
 ---
 Ways to solve
+- Brute force
 - Two pass Hash
 - One pass Hash
