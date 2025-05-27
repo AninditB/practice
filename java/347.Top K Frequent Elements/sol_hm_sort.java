@@ -6,10 +6,10 @@ public class sol_hm_sort {
         // Create empty HashMap freqMap
         Map<Integer, Integer> freqMap = new HashMap<>();
         // For each num in nums:
-        // If freqMap contains num:
-        // Increment freqMap[num] by 1
-        // Else:
-        // Set freqMap[num] = 1
+        // --- If freqMap contains num:
+        // ------ Increment freqMap[num] by 1
+        // --- Else:
+        // ------ Set freqMap[num] = 1
         for (int num : nums) {
             freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
         }
