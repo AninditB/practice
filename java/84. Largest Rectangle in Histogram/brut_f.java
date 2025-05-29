@@ -3,13 +3,11 @@ public class brut_f {
         int n = heights.length;
         int maxArea = 0;
         for (int i = 0; i < n; i++) {
+            int minHeight = Integer.MAX_VALUE;
             for (int j = i; j < n; j++) {
-                int numHeight = Integer.MAX_VALUE;
-
-                for (int k = 1; k <= j; k++) {
-                    minHeight = Math.min(minHeight, heights[k]);
-                }
-                maxArea = Math.max(maxArea, minHeight * (j - i + 1));
+                minHeight = Math.min(minHeight, heights[j]);
+                int area = minHeight * (j - i + 1);
+                maxArea = Math.max(maxArea, area);
             }
         }
         return maxArea;
