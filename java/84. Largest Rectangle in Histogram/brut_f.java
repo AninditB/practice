@@ -1,3 +1,5 @@
+import java.lang.*;
+
 public class brut_f {
     public int largestRectangleArea(int[] heights) {
         int n = heights.length;
